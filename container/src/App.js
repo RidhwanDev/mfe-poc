@@ -2,7 +2,7 @@ import React from "react";
 import HelloReactApp from "./components/HelloReactApp";
 import { Route, Switch, Router, Link } from "react-router-dom";
 import { createBrowserHistory } from "history";
-import CreateAnalysisButton from "./components/CreateAnalysisButton";
+// import CreateAnalysisButton from "./components/CreateAnalysisButton";
 
 const history = createBrowserHistory();
 // const MFE1_Button = React.lazy(() =>
@@ -15,10 +15,9 @@ const Header = () => (
     <br />
     <Link to="/react">use react</Link>
     <HelloReactApp />
-    <React.Suspense fallback="loading..">
+    {/* <React.Suspense fallback="loading..">
       <CreateAnalysisButton />
-      {/* <MFE1_Button /> */}
-    </React.Suspense>
+    </React.Suspense> */}
   </div>
 );
 

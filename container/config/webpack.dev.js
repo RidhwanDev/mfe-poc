@@ -16,7 +16,7 @@ const devConfig = {
       name: "container",
       remotes: {
         helloReact: "helloReact1@http://localhost:8081/remoteEntry.js",
-        createAnalysis: "createAnalysis@http://localhost:8082/remoteEntry.js",
+        // createAnalysis: "createAnalysis@http://localhost:8082/remoteEntry.js",
       },
       // shared: {
       //   ...deps,
